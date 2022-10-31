@@ -1,0 +1,34 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 0 12px rgb(0, 0, 0, 12%);
+}
+
+.card-img{
+    width: 250px;
+    height: 270px;
+    padding: 10px;
+}
+
+.card-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card-list {
+    list-style: none;
+    margin: 20px;
+}
+
+.card-power {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
