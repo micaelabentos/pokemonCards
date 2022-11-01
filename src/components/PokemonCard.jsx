@@ -1,10 +1,11 @@
 import React from 'react'
 import '../stylesheets/PokemonCard.css'
+import Button from './Button'
 
 const PokemonCard = (props) => {
 
     const { pokemon } = props
-
+    
     return (
         <div className="card-container">
             <img className="card-img" src={pokemon.avatar} alt={pokemon.pokemonName} />
@@ -15,6 +16,7 @@ const PokemonCard = (props) => {
                 ))
                 }
             </ul>
+            <Button/>
         </div>
     )
 }
